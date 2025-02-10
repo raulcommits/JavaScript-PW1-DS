@@ -16,10 +16,10 @@ function bodi () {
 
 function mostrarNome () {
     const nomeDigitado = document.getElementById("insereNomy").value;
-    const nomeEscrevido = document.getElementById("mostraNomy");
+    const nomeEscrito = document.getElementById("mostraNomy");
     const titulo = document.getElementById("titulo");
 
-    nomeEscrevido.value = nomeDigitado
+    nomeEscrito.value = nomeDigitado
     // .value é apenas para INPUT, de resto é textContent
     titulo.textContent = nomeDigitado
 }
